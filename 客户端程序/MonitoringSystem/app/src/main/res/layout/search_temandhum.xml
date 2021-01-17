@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/login_bg"
+    android:orientation="vertical">
+
+    <include layout="@layout/main_title_bar" />
+    <LinearLayout
+        android:id="@+id/bar1"
+        android:layout_width="match_parent"
+        android:layout_height="120dp"
+        android:layout_marginTop="30dp"
+        android:orientation="horizontal">
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="fill_parent"
+            android:layout_weight="1"
+            android:orientation="vertical">
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="选择运输车"
+                android:textColor="#FFFFFF"
+                android:textSize="20sp" />
+            <Button
+                android:id="@+id/select_truck1"
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:layout_gravity="center_horizontal"
+                android:background="@drawable/button_rectborder"
+                android:gravity="center"
+                android:text="1号车"
+                android:textSize="25dp" />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="fill_parent"
+            android:layout_weight="1"
+            android:orientation="vertical">
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="选择时间"
+                android:textColor="#FFFFFF"
+                android:textSize="20sp" />
+            <EditText
+                android:id="@+id/startTemTime"
+                android:layout_width="fill_parent"
+                android:layout_height="30dp"
+                android:layout_marginTop="20dp"
+                android:layout_gravity="center_horizontal"
+                android:background="@drawable/button_rectborder"
+                android:gravity="center"
+                android:text="起始时间"
+                android:textSize="10dp" />
+            <EditText
+                android:id="@+id/endTemTime"
+                android:layout_width="fill_parent"
+                android:layout_height="30dp"
+                android:background="@drawable/button_rectborder"
+                android:gravity="center"
+                android:text="结束时间"
+                android:textSize="10dp" />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="fill_parent"
+            android:layout_weight="1"
+            android:orientation="vertical">
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="查询温湿度"
+                android:textColor="#FFFFFF"
+                android:textSize="20sp" />
+            <Button
+                android:id="@+id/bt_temperature"
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:layout_gravity="center_horizontal"
+                android:background="@drawable/button_rectborder"
+                android:gravity="center"
+                android:text="温湿度"
+                android:textSize="25dp" />
+        </LinearLayout>
+    </LinearLayout>
+    <TextView
+        android:id="@+id/temText1"
+        android:layout_width="360dp"
+        android:layout_height="50dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="30dp"
+        android:textSize="23dp"
+        android:text="点击左上方按钮进行查询"
+        android:gravity="center"
+        android:background="@drawable/txt_rectborder" />
+    <TextView
+        android:id="@+id/temText2"
+        android:layout_width="360dp"
+        android:layout_height="50dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="10dp"
+        android:textSize="23dp"
+        android:text="点击左上方按钮进行查询"
+        android:gravity="center"
+        android:background="@drawable/txt_rectborder" />
+    <TextView
+        android:id="@+id/temText3"
+        android:layout_width="360dp"
+        android:layout_height="50dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="10dp"
+        android:textSize="23dp"
+        android:text="点击左上方按钮进行查询"
+        android:gravity="center"
+        android:background="@drawable/txt_rectborder" />
+    <TextView
+        android:id="@+id/temText4"
+        android:layout_width="360dp"
+        android:layout_height="50dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="10dp"
+        android:textSize="23dp"
+        android:text="点击左上方按钮进行查询"
+        android:gravity="center"
+        android:background="@drawable/txt_rectborder" />
+    <TextView
+        android:id="@+id/temText5"
+        android:layout_width="360dp"
+        android:layout_height="50dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="10dp"
+        android:textSize="23dp"
+        android:text="点击左上方按钮进行查询"
+        android:gravity="center"
+        android:background="@drawable/txt_rectborder" />
+</LinearLayout>
